@@ -38,7 +38,7 @@ function App() {
 
     setLoading(true);
     try {
-      const res = await fetch('https://resqai-backend.onrender.com', {
+      const res = await fetch('http://localhost:5000/api/classify', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ text, location: userLocation }),
@@ -87,7 +87,10 @@ function App() {
 
   return (
     <div className="app">
-      <h1>🚨 ResQ.AI</h1>
+      <h1 className="logo-title">
+  <img src="/lantern.png" alt="Lantern Icon" className="lantern-icon" />
+  ResQ.AI
+</h1>
 
       
 
