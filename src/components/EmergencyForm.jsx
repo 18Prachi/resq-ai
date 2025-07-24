@@ -13,8 +13,9 @@ const EmergencyForm = ({ text, setText, onAnalyze, onVoice, onSOS, loading }) =>
         {loading ? 'Analyzing...' : 'Get Help Now'}
       </button>
       <button onClick={onVoice}>🎙️ Voice Input</button>
-      <button onClick={onSOS} className="sos-button blinking">🆘 SOS</button>
       <EmergencyContactButton />
+      <button onClick={onSOS} className="sos-button blinking">🆘 SOS</button>
+      
     </div>
   </>
 );
