@@ -50,11 +50,12 @@ Built for both rural lands and remote realms – ResQ.AI brings **life-saving in
 
 #### 🏠 Homepage
 
-![Homepage](./assets/home-resqai.png)
+![Homepage](readme-docs/homepage.png)
 
-#### 🧠 Rescue Tips
+#### 🧠 Working
 
-![Rescue Tips](./assets/rescue-tips.png)
+![Rescue Tips](readme-docs/working1.png)
+![Rescue Tips](readme-docs/working2.png)
 
 ---
 
