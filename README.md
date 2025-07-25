@@ -70,8 +70,8 @@ Built for both rural lands and remote realms – ResQ.AI brings **life-saving in
 
 ```bash
 # Clone the repository
-git clone https://github.com/18Prachi/resqai.git
-cd resqai
+git clone https://github.com/18Prachi/resq-ai.git
+cd resq-ai
 
 # Install dependencies
 npm install
