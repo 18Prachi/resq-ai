@@ -14,8 +14,8 @@ In rural or remote areas, accessing emergency help can be difficult due to poor 
 
 ## 📦 Repositories
 
-- **Frontend (this repo)**: [https://github.com/Sajal-Srivastava/resqai-frontend](https://github.com/Sajal-Srivastava/resqai-frontend)
-- **Backend**: [https://github.com/Sajal-Srivastava/resqai-backend](https://github.com/Sajal-Srivastava/resqai-backend)
+- **Frontend (this repo)**: [https://github.com/18Prachi/resq-ai](https://github.com/18Prachi/resq-ai)
+- **Backend**: [https://github.com/18Prachi/resq-ai-backend](https://github.com/18Prachi/resq-ai-backend)
 
 ---
 
