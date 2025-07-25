@@ -1,58 +1,60 @@
-# 🚨 ResQ.AI – AI-Powered Emergency Assistant
+# 🧙‍♂️ ResQ.AI – The Marauder’s Emergency Assistant
 
-**Empowering emergency response for everyone, anywhere.**
+> "I solemnly swear that I am up to no good… to help!"  
+> *ResQ.AI is your magical first-responder assistant – intelligent, always alert, and ready to act across any realm.*
 
 ---
 
 ## 🌐 Overview
 
-In rural or remote areas, accessing emergency help can be difficult due to poor internet, lack of services, or even the inability to describe the situation clearly. **ResQ.AI** solves this with an intelligent, multilingual assistant that classifies emergencies from voice or text, offers first-response guidance, shares your location, and can trigger an SOS with one tap.
+In the Muggle and wizarding worlds alike, emergencies can strike without warning. Whether you're stuck in the Forbidden Forest with no signal, or can't cast a Patronus to call for help – **ResQ.AI** is here. Powered by AI and wrapped in a Marauder’s Map–inspired design, it provides multilingual support, voice detection, emergency classification, and step-by-step help.
 
-> 🧠 Powered by AI & built with accessibility, speed, and reliability at its core.
-
----
-
-## 📦 Repositories
-
-- **Frontend (this repo)**: [https://github.com/18Prachi/resq-ai](https://github.com/18Prachi/resq-ai)
-- **Backend**: [https://github.com/18Prachi/resq-ai-backend](https://github.com/18Prachi/resq-ai-backend)
+Built for both rural lands and remote realms – ResQ.AI brings **life-saving intelligence to your fingertips**. 🧠
 
 ---
 
 ## ✨ Key Features
 
-- 🗣️ Input via **text or voice**
-- 🤖 AI-based **emergency classification**
-- 📍 **Live location sharing**
-- 🆘 One-tap **SOS alert**
-- 🧭 Step-by-step **first aid guidance**
-- 🧠 AI-powered **response generation (planned)**
-- 🛰️ Works with **low or no internet** (PWA + Offline-ready)
-- 🔒 Emergency contacts auto-detection (Planned)
-- 🗺️ Map integration for **location visualization**
+| 🔮 Enchantment               | 📝 Description                                                                 |
+|-----------------------------|---------------------------------------------------------------------------------|
+| 🗣️ Voice & Text Input       | Speak or type – the AI will understand your cry for help                       |
+| 🤖 Emergency Classification | Uses AI magic to identify the type of emergency (Medical, Fire, Crime...)      |
+| 📍 Location Sharing         | Pinpoints your position like a Marauder’s Map                                  |
+| 🆘 One-Tap SOS              | Trigger alerts instantly – even a Muggle could use it                          |
+| 🧭 First Aid Guidance       | Contextual, step-by-step rescue tips                                           |
+| 🛰️ Offline-Ready            | *Coming soon*                                           |
+| 🔒 Emergency Contacts       | Auto-detect contacts and notify them *(Planned)*                               |
+| 🧠 AI-Powered Guidance      | Dynamic response generation using Gemini/GPT *(Planned)*                       |
+| 🗺️ Map Integration          | Visualize user’s position & movement *(Planned)*                               |
 
 ---
 
-## ⚙️ Tech Stack
+## 🧰 Tech Stack
 
-### 🧠 AI/ML:
-- HuggingFace Transformers (sentiment-based emergency classification)
-- Future: Google Gemini / GPT (for dynamic guidance)
+| Layer         | Tools Used                                                                 |
+|---------------|-----------------------------------------------------------------------------|
+| 🧠 AI/ML       | HuggingFace Transformers (emergency classifier)                            |
+| 🌐 Frontend    | React + Tailwind CSS, Web Speech API, PWA (offline-first design)           |
+| 🗺️ Maps       | Leaflet or Mapbox (planned integration)                                     |
+| 🔧 Backend     | Python + Flask, Transformers Pipeline, Flask-CORS                          |
+| 🚀 Hosting     | Render.com / Vercel                                                        |
+| 🔐 Security    | Emergency contact sync & alerting (planned)                                |
 
-### 🌐 Frontend:
-- React + Tailwind CSS
-- PWA (Offline-first design)
-- Mapbox or Leaflet (for location)
-- Web Speech API (Voice input)
+---
 
-### 🔧 Backend:
-- Python + Flask (API server)
-- Transformers Pipeline
-- Flask-CORS for cross-origin support
+## 📸 Screenshots
 
-### 🛠️ Others:
-- GitHub (Version control)
-- Render.com / Vercel (Hosting)
+### 🧭 Marauder’s Map–Inspired Design
+
+> “Messrs. Moony, Wormtail, Padfoot, and Prongs are proud to present…”
+
+#### 🏠 Homepage
+
+![Homepage](./assets/home-resqai.png)
+
+#### 🧠 Rescue Tips
+
+![Rescue Tips](./assets/rescue-tips.png)
 
 ---
 
@@ -61,9 +63,9 @@ In rural or remote areas, accessing emergency help can be difficult due to poor 
 ### 🔧 Prerequisites
 
 - Node.js (v18 or above)
-- Backend running on Render or local server (`http://localhost:5000`)
+- Backend running on Render or locally at `http://localhost:5000`
 
-### 📦 Setup Instructions
+### 🧪 Setup Instructions
 
 ```bash
 # Clone the repository
@@ -73,5 +75,5 @@ cd resqai-frontend
 # Install dependencies
 npm install
 
-# Start the dev server
+# Start the development server
 npm run dev
