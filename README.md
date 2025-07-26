@@ -78,3 +78,11 @@ npm install
 
 # Start the development server
 npm start
+
+```
+
+## 🧩 Backend Repository
+
+> 🧠 The magic behind ResQ.AI’s emergency detection lies in its intelligent backend.
+
+**🔗 GitHub Repo:** [https://github.com/18Prachi/resq-ai-backend](https://github.com/18Prachi/resq-ai-backend)
